@@ -18,7 +18,7 @@ Vcs-Browser: http://git.grml.org/?p=grml-rescueboot.git
 Package: grml-rescueboot
 Architecture: all
 Depends:
- grub-pc | grub-efi-amd64,
+ grub-common (>= 1.99-1),
  ${misc:Depends},
  ${shlibs:Depends},
 Recommends:
